@@ -5,8 +5,10 @@ import hello.hellospring.repository.MemberRepository;
 import java.util.List;
 import java.util.Optional;
 
+import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
 
+@Transactional
 @Service
 public class MemberService {
 

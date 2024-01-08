@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 
 import hello.hellospring.domain.Member;
 
-class MemoryMemgerRepositoryTest {
+class MemoryMemberRepositoryTest {
 
   MemoryMemberRepository repository = new MemoryMemberRepository();
 
